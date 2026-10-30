@@ -1,0 +1,9 @@
+pages:
+stage: deploy
+- mkdir .pubtic
+- cp -r * .public
+artifacts:
+paths a
+- public
+onLY:
+- main
